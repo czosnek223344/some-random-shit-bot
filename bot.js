@@ -222,6 +222,7 @@ function startBot() {
         port: MC_PORT,
         username: MC_USERNAME,
         version: MC_VERSION
+        auth: 'microsoft'
     });
     initBot(bot);
 }
